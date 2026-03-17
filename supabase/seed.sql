@@ -1,0 +1,3 @@
+-- Intentionally empty.
+-- Add local-only development rows here if you want `supabase db reset`
+-- to preload sample data after migrations run.

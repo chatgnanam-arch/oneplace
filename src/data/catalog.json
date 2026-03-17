@@ -1,0 +1,945 @@
+{
+  "categories": [
+    {
+      "id": "ott",
+      "name": "OTT",
+      "description": "Jump into streaming services for movies, shows, and live premieres.",
+      "icon": "play",
+      "accentColor": "#ff7a59"
+    },
+    {
+      "id": "games",
+      "name": "Games",
+      "description": "Discover stores, libraries, and live gaming destinations in one place.",
+      "icon": "gamepad",
+      "accentColor": "#2ec4b6"
+    },
+    {
+      "id": "news",
+      "name": "News",
+      "description": "Track the day with reliable headlines, tech coverage, and global reporting.",
+      "icon": "globe",
+      "accentColor": "#ffd166"
+    },
+    {
+      "id": "learning",
+      "name": "Learning",
+      "description": "Keep useful tutorials, courses, and references close at hand.",
+      "icon": "spark",
+      "accentColor": "#7b8cff"
+    },
+    {
+      "id": "tools",
+      "name": "Tools",
+      "description": "Open your daily maker toolkit without hunting across tabs.",
+      "icon": "grid",
+      "accentColor": "#f283b6"
+    }
+  ],
+  "links": [
+    {
+      "id": "netflix",
+      "categoryId": "ott",
+      "name": "Netflix",
+      "url": "https://www.netflix.com/",
+      "description": "Original series, films, and trending global releases.",
+      "iconKey": "screen",
+      "tags": ["movies", "shows", "streaming"]
+    },
+    {
+      "id": "prime-video",
+      "categoryId": "ott",
+      "name": "Prime Video",
+      "url": "https://www.primevideo.com/",
+      "description": "Movies, series, rentals, and live sports selections.",
+      "iconKey": "screen",
+      "tags": ["video", "sports", "tv"]
+    },
+    {
+      "id": "disney-plus",
+      "categoryId": "ott",
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/",
+      "description": "Family favorites, Marvel, Star Wars, and Pixar streaming.",
+      "iconKey": "screen",
+      "tags": ["family", "movies", "franchise"]
+    },
+    {
+      "id": "hulu",
+      "categoryId": "ott",
+      "name": "Hulu",
+      "url": "https://www.hulu.com/",
+      "description": "TV-first streaming with originals and live options.",
+      "iconKey": "screen",
+      "tags": ["tv", "series", "live"]
+    },
+    {
+      "id": "max",
+      "categoryId": "ott",
+      "name": "Max",
+      "url": "https://www.max.com/",
+      "description": "HBO originals, Warner Bros. films, and prestige TV.",
+      "iconKey": "screen",
+      "tags": ["hbo", "series", "movies"]
+    },
+    {
+      "id": "peacock",
+      "categoryId": "ott",
+      "name": "Peacock",
+      "url": "https://www.peacocktv.com/",
+      "description": "NBC shows, originals, live sports, and film picks.",
+      "iconKey": "screen",
+      "tags": ["nbc", "sports", "streaming"]
+    },
+    {
+      "id": "paramount-plus",
+      "categoryId": "ott",
+      "name": "Paramount+",
+      "url": "https://www.paramountplus.com/",
+      "description": "CBS franchises, originals, and live sports coverage.",
+      "iconKey": "screen",
+      "tags": ["cbs", "shows", "sports"]
+    },
+    {
+      "id": "apple-tv-plus",
+      "categoryId": "ott",
+      "name": "Apple TV+",
+      "url": "https://tv.apple.com/",
+      "description": "Award-winning originals and premium Apple video releases.",
+      "iconKey": "screen",
+      "tags": ["apple", "originals", "series"]
+    },
+    {
+      "id": "crunchyroll",
+      "categoryId": "ott",
+      "name": "Crunchyroll",
+      "url": "https://www.crunchyroll.com/",
+      "description": "Anime streaming with simulcasts, dubs, and manga tie-ins.",
+      "iconKey": "screen",
+      "tags": ["anime", "simulcast", "shows"]
+    },
+    {
+      "id": "tubi",
+      "categoryId": "ott",
+      "name": "Tubi",
+      "url": "https://tubitv.com/",
+      "description": "Free ad-supported streaming across films and TV.",
+      "iconKey": "screen",
+      "tags": ["free", "movies", "tv"]
+    },
+    {
+      "id": "pluto-tv",
+      "categoryId": "ott",
+      "name": "Pluto TV",
+      "url": "https://pluto.tv/",
+      "description": "Free live channels and on-demand entertainment.",
+      "iconKey": "screen",
+      "tags": ["free", "live tv", "channels"]
+    },
+    {
+      "id": "starz",
+      "categoryId": "ott",
+      "name": "Starz",
+      "url": "https://www.starz.com/us/en/",
+      "description": "Original dramas, film library picks, and premium series.",
+      "iconKey": "screen",
+      "tags": ["premium", "series", "movies"]
+    },
+    {
+      "id": "amc-plus",
+      "categoryId": "ott",
+      "name": "AMC+",
+      "url": "https://www.amcplus.com/",
+      "description": "AMC originals, horror collections, and prestige drama bundles.",
+      "iconKey": "screen",
+      "tags": ["drama", "horror", "originals"]
+    },
+    {
+      "id": "sling-tv",
+      "categoryId": "ott",
+      "name": "Sling TV",
+      "url": "https://www.sling.com/",
+      "description": "Live TV bundles with sports, news, and entertainment.",
+      "iconKey": "screen",
+      "tags": ["live tv", "sports", "channels"]
+    },
+    {
+      "id": "espn-plus",
+      "categoryId": "ott",
+      "name": "ESPN+",
+      "url": "https://plus.espn.com/",
+      "description": "Streaming access to live sports, originals, and replays.",
+      "iconKey": "screen",
+      "tags": ["sports", "live", "replays"]
+    },
+    {
+      "id": "criterion-channel",
+      "categoryId": "ott",
+      "name": "Criterion Channel",
+      "url": "https://www.criterionchannel.com/",
+      "description": "Curated classic, international, and art-house cinema.",
+      "iconKey": "screen",
+      "tags": ["classic", "film", "curated"]
+    },
+    {
+      "id": "discovery-plus",
+      "categoryId": "ott",
+      "name": "discovery+",
+      "url": "https://www.discoveryplus.com/",
+      "description": "Lifestyle, reality, and documentary streaming brands.",
+      "iconKey": "screen",
+      "tags": ["reality", "documentary", "lifestyle"]
+    },
+    {
+      "id": "plex",
+      "categoryId": "ott",
+      "name": "Plex",
+      "url": "https://www.plex.tv/watch-free/",
+      "description": "Free streaming and personal media library access in one place.",
+      "iconKey": "screen",
+      "tags": ["free", "library", "media"]
+    },
+    {
+      "id": "youtube-tv",
+      "categoryId": "ott",
+      "name": "YouTube TV",
+      "url": "https://tv.youtube.com/",
+      "description": "Live television streaming with cloud DVR and sports channels.",
+      "iconKey": "screen",
+      "tags": ["live tv", "youtube", "dvr"]
+    },
+    {
+      "id": "fubo",
+      "categoryId": "ott",
+      "name": "Fubo",
+      "url": "https://www.fubo.tv/",
+      "description": "Sports-heavy live TV streaming with news and entertainment.",
+      "iconKey": "screen",
+      "tags": ["sports", "live tv", "streaming"]
+    },
+
+    {
+      "id": "steam",
+      "categoryId": "games",
+      "name": "Steam",
+      "url": "https://store.steampowered.com/",
+      "description": "PC game storefront, library, and community hub.",
+      "iconKey": "controller",
+      "tags": ["pc", "store", "library"]
+    },
+    {
+      "id": "epic-games",
+      "categoryId": "games",
+      "name": "Epic Games Store",
+      "url": "https://store.epicgames.com/",
+      "description": "Free games, exclusives, and launcher downloads.",
+      "iconKey": "controller",
+      "tags": ["store", "pc", "free games"]
+    },
+    {
+      "id": "itch-io",
+      "categoryId": "games",
+      "name": "itch.io",
+      "url": "https://itch.io/",
+      "description": "Indie games, game jams, and experimental releases.",
+      "iconKey": "controller",
+      "tags": ["indie", "games", "jam"]
+    },
+    {
+      "id": "xbox-game-pass",
+      "categoryId": "games",
+      "name": "Xbox Game Pass",
+      "url": "https://www.xbox.com/xbox-game-pass",
+      "description": "Subscription gaming catalog across console, cloud, and PC.",
+      "iconKey": "controller",
+      "tags": ["subscription", "cloud", "xbox"]
+    },
+    {
+      "id": "playstation-store",
+      "categoryId": "games",
+      "name": "PlayStation Store",
+      "url": "https://store.playstation.com/",
+      "description": "Console and PC releases, digital downloads, and add-ons.",
+      "iconKey": "controller",
+      "tags": ["playstation", "store", "console"]
+    },
+    {
+      "id": "nintendo-store",
+      "categoryId": "games",
+      "name": "Nintendo Store",
+      "url": "https://www.nintendo.com/us/store/",
+      "description": "Switch games, first-party releases, and digital storefront picks.",
+      "iconKey": "controller",
+      "tags": ["nintendo", "switch", "store"]
+    },
+    {
+      "id": "roblox",
+      "categoryId": "games",
+      "name": "Roblox",
+      "url": "https://www.roblox.com/",
+      "description": "User-created games, social play, and creator publishing.",
+      "iconKey": "controller",
+      "tags": ["ugc", "social", "platform"]
+    },
+    {
+      "id": "minecraft",
+      "categoryId": "games",
+      "name": "Minecraft",
+      "url": "https://www.minecraft.net/",
+      "description": "Sandbox building, marketplace content, and community updates.",
+      "iconKey": "controller",
+      "tags": ["sandbox", "creative", "survival"]
+    },
+    {
+      "id": "riot-games",
+      "categoryId": "games",
+      "name": "Riot Games",
+      "url": "https://www.riotgames.com/",
+      "description": "Competitive multiplayer titles, esports, and game updates.",
+      "iconKey": "controller",
+      "tags": ["esports", "multiplayer", "competitive"]
+    },
+    {
+      "id": "league-of-legends",
+      "categoryId": "games",
+      "name": "League of Legends",
+      "url": "https://www.leagueoflegends.com/",
+      "description": "MOBA downloads, patch news, and champion guides.",
+      "iconKey": "controller",
+      "tags": ["moba", "pc", "esports"]
+    },
+    {
+      "id": "battle-net",
+      "categoryId": "games",
+      "name": "Battle.net",
+      "url": "https://shop.battle.net/",
+      "description": "Blizzard storefront for major PC franchises and bundles.",
+      "iconKey": "controller",
+      "tags": ["blizzard", "pc", "store"]
+    },
+    {
+      "id": "ea-games",
+      "categoryId": "games",
+      "name": "EA Games",
+      "url": "https://www.ea.com/games",
+      "description": "Sports, shooters, and major publisher release pages.",
+      "iconKey": "controller",
+      "tags": ["publisher", "sports", "franchise"]
+    },
+    {
+      "id": "ubisoft-store",
+      "categoryId": "games",
+      "name": "Ubisoft Store",
+      "url": "https://store.ubisoft.com/",
+      "description": "Ubisoft launches, DLC, and PC purchase hub.",
+      "iconKey": "controller",
+      "tags": ["publisher", "store", "pc"]
+    },
+    {
+      "id": "gog",
+      "categoryId": "games",
+      "name": "GOG",
+      "url": "https://www.gog.com/",
+      "description": "DRM-free game catalog with classics and modern releases.",
+      "iconKey": "controller",
+      "tags": ["drm-free", "pc", "catalog"]
+    },
+    {
+      "id": "rockstar-games",
+      "categoryId": "games",
+      "name": "Rockstar Games",
+      "url": "https://www.rockstargames.com/",
+      "description": "Blockbuster franchise news, downloads, and publisher updates.",
+      "iconKey": "controller",
+      "tags": ["publisher", "franchise", "action"]
+    },
+    {
+      "id": "twitch",
+      "categoryId": "games",
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/",
+      "description": "Live streams, esports broadcasts, and creator channels.",
+      "iconKey": "controller",
+      "tags": ["live", "streaming", "esports"]
+    },
+    {
+      "id": "discord",
+      "categoryId": "games",
+      "name": "Discord",
+      "url": "https://discord.com/",
+      "description": "Gaming communities, voice chat, and friend servers.",
+      "iconKey": "controller",
+      "tags": ["community", "chat", "voice"]
+    },
+    {
+      "id": "crazygames",
+      "categoryId": "games",
+      "name": "CrazyGames",
+      "url": "https://www.crazygames.com/",
+      "description": "Browser games across action, puzzle, and multiplayer genres.",
+      "iconKey": "controller",
+      "tags": ["browser", "casual", "arcade"]
+    },
+    {
+      "id": "poki",
+      "categoryId": "games",
+      "name": "Poki",
+      "url": "https://poki.com/",
+      "description": "Quick-play web games and casual hits across devices.",
+      "iconKey": "controller",
+      "tags": ["browser", "casual", "mobile web"]
+    },
+    {
+      "id": "coolmath-games",
+      "categoryId": "games",
+      "name": "Coolmath Games",
+      "url": "https://www.coolmathgames.com/",
+      "description": "Puzzle, strategy, and classroom-friendly browser games.",
+      "iconKey": "controller",
+      "tags": ["puzzle", "web", "strategy"]
+    },
+
+    {
+      "id": "reuters",
+      "categoryId": "news",
+      "name": "Reuters",
+      "url": "https://www.reuters.com/",
+      "description": "Global reporting with business, world, and market coverage.",
+      "iconKey": "headline",
+      "tags": ["world", "business", "markets"]
+    },
+    {
+      "id": "ap-news",
+      "categoryId": "news",
+      "name": "AP News",
+      "url": "https://apnews.com/",
+      "description": "Breaking news and trusted coverage across major beats.",
+      "iconKey": "headline",
+      "tags": ["breaking", "politics", "world"]
+    },
+    {
+      "id": "bbc-news",
+      "categoryId": "news",
+      "name": "BBC News",
+      "url": "https://www.bbc.com/news",
+      "description": "International and regional coverage with live updates.",
+      "iconKey": "headline",
+      "tags": ["global", "live", "analysis"]
+    },
+    {
+      "id": "the-verge",
+      "categoryId": "news",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/",
+      "description": "Technology, science, and culture reporting.",
+      "iconKey": "headline",
+      "tags": ["tech", "gadgets", "culture"]
+    },
+    {
+      "id": "nytimes",
+      "categoryId": "news",
+      "name": "The New York Times",
+      "url": "https://www.nytimes.com/",
+      "description": "National, global, business, and culture coverage.",
+      "iconKey": "headline",
+      "tags": ["national", "world", "analysis"]
+    },
+    {
+      "id": "cnn",
+      "categoryId": "news",
+      "name": "CNN",
+      "url": "https://www.cnn.com/",
+      "description": "Breaking stories, live blogs, and U.S. politics coverage.",
+      "iconKey": "headline",
+      "tags": ["breaking", "live", "politics"]
+    },
+    {
+      "id": "fox-news",
+      "categoryId": "news",
+      "name": "Fox News",
+      "url": "https://www.foxnews.com/",
+      "description": "U.S. headlines, opinion, and live event coverage.",
+      "iconKey": "headline",
+      "tags": ["us", "politics", "live"]
+    },
+    {
+      "id": "npr",
+      "categoryId": "news",
+      "name": "NPR",
+      "url": "https://www.npr.org/",
+      "description": "News reporting, radio stories, and deep feature coverage.",
+      "iconKey": "headline",
+      "tags": ["radio", "analysis", "features"]
+    },
+    {
+      "id": "washington-post",
+      "categoryId": "news",
+      "name": "The Washington Post",
+      "url": "https://www.washingtonpost.com/",
+      "description": "Politics, investigations, and major national reporting.",
+      "iconKey": "headline",
+      "tags": ["politics", "investigations", "national"]
+    },
+    {
+      "id": "wall-street-journal",
+      "categoryId": "news",
+      "name": "The Wall Street Journal",
+      "url": "https://www.wsj.com/",
+      "description": "Markets, business analysis, and global affairs coverage.",
+      "iconKey": "headline",
+      "tags": ["business", "markets", "analysis"]
+    },
+    {
+      "id": "usa-today",
+      "categoryId": "news",
+      "name": "USA TODAY",
+      "url": "https://www.usatoday.com/",
+      "description": "National headlines, sports, and lifestyle reporting.",
+      "iconKey": "headline",
+      "tags": ["national", "sports", "lifestyle"]
+    },
+    {
+      "id": "abc-news",
+      "categoryId": "news",
+      "name": "ABC News",
+      "url": "https://abcnews.go.com/",
+      "description": "Live news coverage, top stories, and video reporting.",
+      "iconKey": "headline",
+      "tags": ["live", "video", "top stories"]
+    },
+    {
+      "id": "nbc-news",
+      "categoryId": "news",
+      "name": "NBC News",
+      "url": "https://www.nbcnews.com/",
+      "description": "Breaking U.S. coverage, investigations, and live video.",
+      "iconKey": "headline",
+      "tags": ["breaking", "investigations", "video"]
+    },
+    {
+      "id": "cbs-news",
+      "categoryId": "news",
+      "name": "CBS News",
+      "url": "https://www.cbsnews.com/",
+      "description": "National headlines, live streams, and feature reporting.",
+      "iconKey": "headline",
+      "tags": ["national", "live", "features"]
+    },
+    {
+      "id": "bloomberg",
+      "categoryId": "news",
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "description": "Financial markets, economy, and business intelligence coverage.",
+      "iconKey": "headline",
+      "tags": ["finance", "economy", "markets"]
+    },
+    {
+      "id": "axios",
+      "categoryId": "news",
+      "name": "Axios",
+      "url": "https://www.axios.com/",
+      "description": "Concise updates on politics, business, and technology.",
+      "iconKey": "headline",
+      "tags": ["politics", "business", "tech"]
+    },
+    {
+      "id": "al-jazeera",
+      "categoryId": "news",
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/",
+      "description": "International reporting with strong global and regional focus.",
+      "iconKey": "headline",
+      "tags": ["global", "middle east", "world"]
+    },
+    {
+      "id": "the-guardian",
+      "categoryId": "news",
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/us",
+      "description": "World affairs, climate reporting, and opinion coverage.",
+      "iconKey": "headline",
+      "tags": ["world", "climate", "opinion"]
+    },
+    {
+      "id": "yahoo-news",
+      "categoryId": "news",
+      "name": "Yahoo News",
+      "url": "https://news.yahoo.com/",
+      "description": "Top stories aggregation with politics and entertainment updates.",
+      "iconKey": "headline",
+      "tags": ["aggregation", "top stories", "politics"]
+    },
+    {
+      "id": "msn-news",
+      "categoryId": "news",
+      "name": "MSN News",
+      "url": "https://www.msn.com/en-us/news",
+      "description": "Headline aggregation across news, business, and lifestyle beats.",
+      "iconKey": "headline",
+      "tags": ["aggregation", "business", "lifestyle"]
+    },
+
+    {
+      "id": "mdn",
+      "categoryId": "learning",
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/",
+      "description": "Front-end references, guides, and platform documentation.",
+      "iconKey": "bookmark",
+      "tags": ["docs", "web", "reference"]
+    },
+    {
+      "id": "khan-academy",
+      "categoryId": "learning",
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org/",
+      "description": "Free courses and practice lessons across key subjects.",
+      "iconKey": "bookmark",
+      "tags": ["courses", "practice", "education"]
+    },
+    {
+      "id": "coursera",
+      "categoryId": "learning",
+      "name": "Coursera",
+      "url": "https://www.coursera.org/",
+      "description": "Online certificates, guided projects, and degree programs.",
+      "iconKey": "bookmark",
+      "tags": ["career", "certificates", "courses"]
+    },
+    {
+      "id": "freecodecamp",
+      "categoryId": "learning",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/",
+      "description": "Hands-on coding paths, tutorials, and certifications.",
+      "iconKey": "bookmark",
+      "tags": ["coding", "tutorials", "certifications"]
+    },
+    {
+      "id": "edx",
+      "categoryId": "learning",
+      "name": "edX",
+      "url": "https://www.edx.org/",
+      "description": "University-backed online classes, certificates, and programs.",
+      "iconKey": "bookmark",
+      "tags": ["university", "courses", "certificates"]
+    },
+    {
+      "id": "udemy",
+      "categoryId": "learning",
+      "name": "Udemy",
+      "url": "https://www.udemy.com/",
+      "description": "Marketplace for practical courses in tech, business, and more.",
+      "iconKey": "bookmark",
+      "tags": ["courses", "skills", "professional"]
+    },
+    {
+      "id": "codecademy",
+      "categoryId": "learning",
+      "name": "Codecademy",
+      "url": "https://www.codecademy.com/",
+      "description": "Interactive coding lessons, paths, and career tracks.",
+      "iconKey": "bookmark",
+      "tags": ["coding", "interactive", "career"]
+    },
+    {
+      "id": "w3schools",
+      "categoryId": "learning",
+      "name": "W3Schools",
+      "url": "https://www.w3schools.com/",
+      "description": "Quick web development references, examples, and practice.",
+      "iconKey": "bookmark",
+      "tags": ["web", "reference", "practice"]
+    },
+    {
+      "id": "duolingo",
+      "categoryId": "learning",
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com/",
+      "description": "Language learning with streaks, practice, and bite-sized lessons.",
+      "iconKey": "bookmark",
+      "tags": ["language", "practice", "mobile"]
+    },
+    {
+      "id": "mit-opencourseware",
+      "categoryId": "learning",
+      "name": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/",
+      "description": "Free lecture notes, videos, and course materials from MIT.",
+      "iconKey": "bookmark",
+      "tags": ["free", "engineering", "lectures"]
+    },
+    {
+      "id": "linkedin-learning",
+      "categoryId": "learning",
+      "name": "LinkedIn Learning",
+      "url": "https://www.linkedin.com/learning/",
+      "description": "Professional upskilling across software, business, and leadership.",
+      "iconKey": "bookmark",
+      "tags": ["career", "business", "skills"]
+    },
+    {
+      "id": "udacity",
+      "categoryId": "learning",
+      "name": "Udacity",
+      "url": "https://www.udacity.com/",
+      "description": "Career-focused programs in AI, cloud, and data fields.",
+      "iconKey": "bookmark",
+      "tags": ["tech", "career", "nanodegree"]
+    },
+    {
+      "id": "brilliant",
+      "categoryId": "learning",
+      "name": "Brilliant",
+      "url": "https://brilliant.org/",
+      "description": "Problem-solving lessons in math, science, and computing.",
+      "iconKey": "bookmark",
+      "tags": ["math", "science", "problem solving"]
+    },
+    {
+      "id": "skillshare",
+      "categoryId": "learning",
+      "name": "Skillshare",
+      "url": "https://www.skillshare.com/",
+      "description": "Creative and practical classes from design to freelancing.",
+      "iconKey": "bookmark",
+      "tags": ["creative", "design", "skills"]
+    },
+    {
+      "id": "quizlet",
+      "categoryId": "learning",
+      "name": "Quizlet",
+      "url": "https://quizlet.com/",
+      "description": "Flashcards, study sets, and memorization tools.",
+      "iconKey": "bookmark",
+      "tags": ["study", "flashcards", "memorization"]
+    },
+    {
+      "id": "ted",
+      "categoryId": "learning",
+      "name": "TED",
+      "url": "https://www.ted.com/",
+      "description": "Talks and ideas spanning science, business, and creativity.",
+      "iconKey": "bookmark",
+      "tags": ["talks", "ideas", "inspiration"]
+    },
+    {
+      "id": "harvard-online",
+      "categoryId": "learning",
+      "name": "Harvard Online",
+      "url": "https://www.harvardonline.harvard.edu/",
+      "description": "University-backed learning programs and professional courses.",
+      "iconKey": "bookmark",
+      "tags": ["university", "professional", "courses"]
+    },
+    {
+      "id": "leetcode",
+      "categoryId": "learning",
+      "name": "LeetCode",
+      "url": "https://leetcode.com/",
+      "description": "Coding interview prep, algorithm practice, and contests.",
+      "iconKey": "bookmark",
+      "tags": ["coding", "interview", "practice"]
+    },
+    {
+      "id": "geeksforgeeks",
+      "categoryId": "learning",
+      "name": "GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/",
+      "description": "Programming tutorials, interview prep, and CS references.",
+      "iconKey": "bookmark",
+      "tags": ["programming", "interview", "reference"]
+    },
+    {
+      "id": "study-com",
+      "categoryId": "learning",
+      "name": "Study.com",
+      "url": "https://study.com/",
+      "description": "Video lessons, homework help, and test preparation resources.",
+      "iconKey": "bookmark",
+      "tags": ["study", "video lessons", "test prep"]
+    },
+
+    {
+      "id": "github",
+      "categoryId": "tools",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "description": "Repositories, issues, pull requests, and project collaboration.",
+      "iconKey": "toolbox",
+      "tags": ["code", "git", "projects"]
+    },
+    {
+      "id": "figma",
+      "categoryId": "tools",
+      "name": "Figma",
+      "url": "https://www.figma.com/",
+      "description": "Interface design, prototyping, and team collaboration.",
+      "iconKey": "toolbox",
+      "tags": ["design", "prototype", "ui"]
+    },
+    {
+      "id": "notion",
+      "categoryId": "tools",
+      "name": "Notion",
+      "url": "https://www.notion.so/",
+      "description": "Notes, docs, databases, and collaborative planning.",
+      "iconKey": "toolbox",
+      "tags": ["notes", "workspace", "planning"]
+    },
+    {
+      "id": "stack-overflow",
+      "categoryId": "tools",
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/",
+      "description": "Developer Q&A, debugging help, and community answers.",
+      "iconKey": "toolbox",
+      "tags": ["developer", "questions", "answers"]
+    },
+    {
+      "id": "chatgpt",
+      "categoryId": "tools",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "description": "AI chat, drafting help, coding support, and research workflows.",
+      "iconKey": "toolbox",
+      "tags": ["ai", "writing", "assistant"]
+    },
+    {
+      "id": "canva",
+      "categoryId": "tools",
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "description": "Quick design creation for decks, social posts, and assets.",
+      "iconKey": "toolbox",
+      "tags": ["design", "templates", "graphics"]
+    },
+    {
+      "id": "google-drive",
+      "categoryId": "tools",
+      "name": "Google Drive",
+      "url": "https://drive.google.com/",
+      "description": "Cloud file storage, sharing, and document access.",
+      "iconKey": "toolbox",
+      "tags": ["storage", "docs", "cloud"]
+    },
+    {
+      "id": "slack",
+      "categoryId": "tools",
+      "name": "Slack",
+      "url": "https://slack.com/",
+      "description": "Team chat, channels, and workflow notifications.",
+      "iconKey": "toolbox",
+      "tags": ["chat", "team", "communication"]
+    },
+    {
+      "id": "trello",
+      "categoryId": "tools",
+      "name": "Trello",
+      "url": "https://trello.com/",
+      "description": "Kanban boards for simple task and project tracking.",
+      "iconKey": "toolbox",
+      "tags": ["kanban", "tasks", "projects"]
+    },
+    {
+      "id": "jira",
+      "categoryId": "tools",
+      "name": "Jira",
+      "url": "https://www.atlassian.com/software/jira",
+      "description": "Issue tracking, sprint planning, and engineering workflows.",
+      "iconKey": "toolbox",
+      "tags": ["tickets", "agile", "engineering"]
+    },
+    {
+      "id": "miro",
+      "categoryId": "tools",
+      "name": "Miro",
+      "url": "https://miro.com/",
+      "description": "Collaborative whiteboards for planning and workshops.",
+      "iconKey": "toolbox",
+      "tags": ["whiteboard", "planning", "collaboration"]
+    },
+    {
+      "id": "dropbox",
+      "categoryId": "tools",
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com/",
+      "description": "Cloud storage, file syncing, and sharing across devices.",
+      "iconKey": "toolbox",
+      "tags": ["storage", "sync", "files"]
+    },
+    {
+      "id": "zoom",
+      "categoryId": "tools",
+      "name": "Zoom",
+      "url": "https://zoom.us/",
+      "description": "Video meetings, webinars, and remote collaboration.",
+      "iconKey": "toolbox",
+      "tags": ["video", "meetings", "remote"]
+    },
+    {
+      "id": "postman",
+      "categoryId": "tools",
+      "name": "Postman",
+      "url": "https://www.postman.com/",
+      "description": "API testing, collections, and team development workflows.",
+      "iconKey": "toolbox",
+      "tags": ["api", "testing", "development"]
+    },
+    {
+      "id": "vercel",
+      "categoryId": "tools",
+      "name": "Vercel",
+      "url": "https://vercel.com/",
+      "description": "Frontend hosting, deployments, and preview environments.",
+      "iconKey": "toolbox",
+      "tags": ["hosting", "deploy", "frontend"]
+    },
+    {
+      "id": "netlify",
+      "categoryId": "tools",
+      "name": "Netlify",
+      "url": "https://www.netlify.com/",
+      "description": "Static hosting, serverless tooling, and deploy automation.",
+      "iconKey": "toolbox",
+      "tags": ["hosting", "serverless", "deploy"]
+    },
+    {
+      "id": "webflow",
+      "categoryId": "tools",
+      "name": "Webflow",
+      "url": "https://webflow.com/",
+      "description": "Visual web design, CMS publishing, and site building.",
+      "iconKey": "toolbox",
+      "tags": ["website", "cms", "design"]
+    },
+    {
+      "id": "framer",
+      "categoryId": "tools",
+      "name": "Framer",
+      "url": "https://www.framer.com/",
+      "description": "Interactive site building and rapid design publishing.",
+      "iconKey": "toolbox",
+      "tags": ["prototype", "website", "design"]
+    },
+    {
+      "id": "asana",
+      "categoryId": "tools",
+      "name": "Asana",
+      "url": "https://asana.com/",
+      "description": "Project planning, task ownership, and team coordination.",
+      "iconKey": "toolbox",
+      "tags": ["projects", "tasks", "teams"]
+    },
+    {
+      "id": "office",
+      "categoryId": "tools",
+      "name": "Microsoft 365",
+      "url": "https://www.office.com/",
+      "description": "Docs, spreadsheets, email, and workplace collaboration.",
+      "iconKey": "toolbox",
+      "tags": ["docs", "office", "productivity"]
+    }
+  ]
+}
